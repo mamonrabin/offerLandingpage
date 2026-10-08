@@ -52,7 +52,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section id="home" className="scroll-mt-24 relative overflow-hidden z-50 bg-[#F9F9FB] px-4 pt-35">
+    <section id="home" className="scroll-mt-24 relative overflow-hidden z-50 bg-[#F9F9FB] px-4 md:pt-35 pt-30">
       {/* Background glow */}
       {/* Hero Background */}
       <div className="pointer-events-none absolute inset-0 overflow-hidden">

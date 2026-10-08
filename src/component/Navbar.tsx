@@ -19,7 +19,7 @@ export default function Navbar() {
   return (
     <nav
       aria-label="মেইন নেভিগেশন"
-      className={`fixed z-[999] left-1/2 top-8  flex w-[calc(100%-32px)] max-w-[34rem] -translate-x-1/2 items-center justify-between rounded-2xl bg-black/90 p-2 shadow-lg backdrop-blur-md ${hindSiliguri.className}`}
+      className={`fixed z-[999] left-1/2 md:top-8 top-6  flex w-[calc(100%-32px)] max-w-[34rem] -translate-x-1/2 items-center justify-between rounded-2xl bg-black/90 p-2 shadow-lg backdrop-blur-md ${hindSiliguri.className}`}
     >
       {/* Left: Logo Button */}
       <Link
@@ -34,7 +34,7 @@ export default function Navbar() {
       </Link>
 
       {/* Center: Navigation Links */}
-      <ul className="items-center md:gap-6 gap-2 flex">
+      <ul className="items-center md:gap-8 gap-3 flex">
         {navLinks.map((link, index) => (
           <li key={link.href}>
             <Link
